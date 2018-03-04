@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#ffffff"
+    >
+    <!-- 연결 끊으시겠습니까? -->
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/disconnect_confirm"
+        android:textColor="@color/bg_window"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/ic_fit"
+        android:drawablePadding="10dp"
+        />
+
+    <!-- 확인/취소 버튼 -->
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/no"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:background="#999999"
+                />
+            <View
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_goal_item"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/yes"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:background="#57e2ff"
+                />
+            <View
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_goal_item"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

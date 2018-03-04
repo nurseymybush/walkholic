@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.teuskim.fitproj.MainGoalsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#64758a"
+        android:dividerHeight="1dp"
+        android:listSelector="#00000000"
+        />
+    <include
+        android:id="@+id/no_goal_view"
+        layout="@layout/add_your_goal"
+        />
+    <Button
+        android:id="@+id/btn_add_goal"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/circle_pink"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:paddingBottom="6dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    >
+    <!-- 원형상태뷰 -->
+    <com.teuskim.fitproj.view.CircleStateView
+        android:id="@+id/circle_state"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+    <!-- 날짜 -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        />
+</LinearLayout>

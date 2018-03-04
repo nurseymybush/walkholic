@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Walkholic</string>
+    <string name="common_error">I am sorry. Please retry it later.</string>
+    <string name="common_save">SAVE</string>
+    <string name="common_delete">DELETE</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="text_walk">Walking</string>
+    <string name="text_run">Running</string>
+    <string name="text_cycle">Cycling</string>
+    <string name="text_today">Today</string>
+
+    <!-- 구글핏 연결 관련 -->
+    <string name="connect_msg">Google Fit is an open platform that lets you control your fitness data from multiple apps and devices.\n\nConnecting to Google Fit allows you to see walking distance, running distance, and cycling distance.\n\nYou can disconnect from Google Fit at any time by going to \"Data\".</string>
+    <string name="connect">Connect to Google Fit</string>
+    <string name="exit">exit</string>
+
+    <!-- 메인화면 문구 -->
+    <string name="dashboard">Dashboard</string>
+    <string name="goals">Goals</string>
+    <string name="data">Data</string>
+    <string name="add_goal">Add your goal!</string>
+
+    <!-- 대시보드 문구 -->
+    <string name="dashboard_goal_text_walk">Walking until now, %.2f </string>
+    <string name="dashboard_goal_text_run">Running until now, %.2f </string>
+    <string name="dashboard_goal_text_cycle">Cycling until now, %.2f </string>
+    <string name="dashboard_todays_goal">Today\'s goal, %.2f </string>
+    <string name="dashboard_msg_1_1">Good morning!</string>
+    <string name="dashboard_msg_1_2">Hi, there!</string>
+    <string name="dashboard_msg_2_1">Not yet?</string>
+    <string name="dashboard_msg_2_2">Let\'s exercise!</string>
+    <string name="dashboard_msg_2_3">Pull your socks up!</string>
+    <string name="dashboard_msg_2_4">You look good!</string>
+    <string name="dashboard_msg_2_5">You look nice!</string>
+    <string name="dashboard_msg_3_1">Good job!</string>
+    <string name="dashboard_msg_3_2">You need more.</string>
+    <string name="dashboard_msg_3_3">Tomorrow, please.</string>
+    <string name="dashboard_msg_common">You will be healthy.</string>
+
+    <!-- 목표 생성 화면 문구 -->
+    <string name="title_create_goal">Set a new goal</string>
+    <string name="title_modify_goal">Modify the goal</string>
+    <string name="category">Category</string>
+    <string name="how_long">How long can you walk?</string>
+    <string name="distance">Distance(%s)</string>
+    <string name="title_weekdays">Weekdays</string>
+    <string name="checkbox_sun">S</string>
+    <string name="checkbox_mon">M</string>
+    <string name="checkbox_tue">T</string>
+    <string name="checkbox_wed">W</string>
+    <string name="checkbox_thu">T</string>
+    <string name="checkbox_fri">F</string>
+    <string name="checkbox_sat">S</string>
+    <string name="daily">daily</string>
+    <string name="weekend">weekend</string>
+    <string name="weekdays">weekdays</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="empty_distance">Please fill the distance.</string>
+    <string name="empty_days">Please select days.</string>
+    <string name="goal_created">The goal is created!</string>
+    <string name="goal_modified">The goal is modified!</string>
+    <string name="goal_deleted">The goal is deleted!</string>
+
+    <!-- 데이터 입력 화면 문구 -->
+    <string name="wrong_number">This is wrong numbers.</string>
+    <string name="save_success">Save successfully.</string>
+    <string name="recording">Recording</string>
+    <string name="alert">Alert</string>
+    <string name="convert_unit">kg -> lbs\nkm -> mi</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="enter_weight">Please enter your weight.</string>
+    <string name="disconnect">Disconnect from Google Fit</string>
+    <string name="disconnect_confirm">Are you sure you want to disconnect from Google Fit?</string>
+
+    <!-- 목표 상세화면 문구 -->
+    <string name="today_activity">TODAY ACTIVITY</string>
+
+    <!-- 목표 미달성시 알람 문구 -->
+    <string name="noti_msg">Let\'s exercise!</string>
+    <string name="noti_walk">,walk</string>
+    <string name="noti_run">,run</string>
+    <string name="noti_cycle">,cycle</string>
+
+</resources>

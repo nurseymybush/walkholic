@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.teuskim.fitproj.MainActivity"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!-- 메인화면 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!-- 메인탭 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:id="@+id/tab_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#33000000"
+                >
+                <TextView
+                    android:id="@+id/tab_dashboard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:text="@string/dashboard"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/btn_main_menu"
+                    />
+                <TextView
+                    android:id="@+id/tab_goals"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:text="@string/goals"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/btn_main_menu"
+                    />
+                <TextView
+                    android:id="@+id/tab_data"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="@string/data"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/btn_main_menu"
+                    />
+            </LinearLayout>
+            
+            <!-- 선택된 탭 표시바 -->
+            <RelativeLayout
+                android:id="@+id/tab_selected_bar_container"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignBottom="@id/tab_container"
+                >
+                <View
+                    android:id="@+id/tab_selected_bar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#72cfeb"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <!-- 뷰페이저 -->
+        <com.teuskim.fitproj.view.FitViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

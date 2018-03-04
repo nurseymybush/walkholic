@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".TestActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button android:text="메인화면으로 이동"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickMoveToMain"
+                />
+            <Button android:text="데이터 불러오기(HistoryAPI)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLoadData"
+                />
+            <Button android:text="데이터 저장하기(HistoryAPI)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickSaveData"
+                />
+            <Button android:text="기록 시작/종료(RecordingAPI)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickRecordData"
+                />
+            <Button android:text="실시간 확인 시작/종료(SensorsAPI)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickSensors"
+                />
+            <Button android:text="노티 테스트"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickNotification"
+                />
+            <com.teuskim.fitproj.view.CircleGraphView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="#eeeeee"
+                android:onClick="onClickCircleGraphView"
+                />
+            <com.teuskim.fitproj.view.HorizontalListView
+                android:id="@+id/hlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#999999"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="콘솔창 열기"
+            android:onClick="onClickBtnConsole"
+            />
+        <ScrollView
+            android:id="@+id/console_log_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="4dp"
+            android:background="#ffffff"
+            android:visibility="gone"
+            >
+            <TextView
+                android:id="@+id/console_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

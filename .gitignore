@@ -1,0 +1,17 @@
+.DS_Store
+
+/FitProj/.gradle
+/FitProj/local.properties
+/FitProj/.idea/workspace.xml
+/FitProj/.idea/libraries
+/FitProj/.DS_Store
+/FitProj/build
+/FitProj/app/google-services.json
+
+/FitProj_kotlin/.gradle
+/FitProj_kotlin/local.properties
+/FitProj_kotlin/.idea/workspace.xml
+/FitProj_kotlin/.idea/libraries
+/FitProj_kotlin/.DS_Store
+/FitProj_kotlin/build
+/FitProj_kotlin/app/google-services.json

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Walkholic</string>
+    <string name="common_error">오류가 발생했습니다. 잠시 후 다시 시도해 주세요.</string>
+    <string name="common_save">저장</string>
+    <string name="common_delete">삭제</string>
+    <string name="yes">네</string>
+    <string name="no">아니오</string>
+    <string name="text_walk">걷기</string>
+    <string name="text_run">달리기</string>
+    <string name="text_cycle">자전거</string>
+    <string name="text_today">오늘</string>
+
+    <!-- 구글핏 연결 관련 -->
+    <string name="connect_msg">구글핏은, 구글핏과 연결된 앱 및 기기들로부터 운동량 정보를 받아서 저장하고, 가공된 데이터를 제공해주는 오픈 플랫폼입니다.\n\n구글핏에 연결하면, 걸어서 이동한 거리, 달려서 이동한 거리, 자전거를 타고 이동한 거리를 볼 수 있습니다.\n\n앱의 데이터 탭에서 연결을 끊을 수 있습니다.</string>
+    <string name="connect">구글핏에 연결하기</string>
+    <string name="exit">종료하기</string>
+
+    <!-- 메인화면 문구 -->
+    <string name="dashboard">오늘</string>
+    <string name="goals">목표</string>
+    <string name="data">데이터</string>
+    <string name="add_goal">목표를 추가하세요!</string>
+
+    <!-- 대시보드 문구 -->
+    <string name="dashboard_goal_text_walk">걷기, 지금까지 %.2f </string>
+    <string name="dashboard_goal_text_run">달리기, 지금까지 %.2f </string>
+    <string name="dashboard_goal_text_cycle">자전거, 지금까지 %.2f </string>
+    <string name="dashboard_todays_goal">오늘 목표, %.2f </string>
+    <string name="dashboard_msg_1_1">좋은 아침이에요!</string>
+    <string name="dashboard_msg_1_2">안녕하세요!</string>
+    <string name="dashboard_msg_2_1">아직인가요?</string>
+    <string name="dashboard_msg_2_2">운동 합시다!</string>
+    <string name="dashboard_msg_2_3">분발하시죠!</string>
+    <string name="dashboard_msg_2_4">좋아요! 화이팅!</string>
+    <string name="dashboard_msg_2_5">수고가 많으십니다!</string>
+    <string name="dashboard_msg_3_1">수고하셨습니다! 짝짝!</string>
+    <string name="dashboard_msg_3_2">조금만 더 힘내세요!</string>
+    <string name="dashboard_msg_3_3">내일은 운동하실꺼죠?</string>
+    <string name="dashboard_msg_common">운동은 Walkholic과 함께</string>
+
+    <!-- 목표 생성 화면 문구 -->
+    <string name="title_create_goal">새 목표 추가</string>
+    <string name="title_modify_goal">목표 수정</string>
+    <string name="category">운동 종류</string>
+    <string name="how_long">목표 거리</string>
+    <string name="distance">거리(%s)</string>
+    <string name="title_weekdays">요일 선택</string>
+    <string name="checkbox_sun">일</string>
+    <string name="checkbox_mon">월</string>
+    <string name="checkbox_tue">화</string>
+    <string name="checkbox_wed">수</string>
+    <string name="checkbox_thu">목</string>
+    <string name="checkbox_fri">금</string>
+    <string name="checkbox_sat">토</string>
+    <string name="daily">매일</string>
+    <string name="weekend">주말</string>
+    <string name="weekdays">평일</string>
+    <string name="sun">일</string>
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+    <string name="empty_distance">거리를 입력하세요.</string>
+    <string name="empty_days">요일을 선택하세요.</string>
+    <string name="goal_created">목표가 추가되었습니다.</string>
+    <string name="goal_modified">목표가 수정되었습니다.</string>
+    <string name="goal_deleted">목표가 삭제되었습니다.</string>
+
+    <!-- 데이터 입력 화면 문구 -->
+    <string name="wrong_number">숫자로 입력해 주세요.</string>
+    <string name="save_success">저장되었습니다.</string>
+    <string name="recording">활동 감지</string>
+    <string name="alert">알림</string>
+    <string name="convert_unit">kg -> lbs\nkm -> mi</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="enter_weight">체중을 입력해 주세요.</string>
+    <string name="disconnect">구글핏 연결 끊기</string>
+    <string name="disconnect_confirm">구글핏 연결을 끊으시겠습니까?</string>
+
+    <!-- 목표 상세화면 문구 -->
+    <string name="today_activity">오늘</string>
+
+    <!-- 목표 미달성시 알람 문구 -->
+    <string name="noti_msg">목표 미달! 운동합시다!</string>
+    <string name="noti_walk">,걷기</string>
+    <string name="noti_run">,달리기</string>
+    <string name="noti_cycle">,자전거</string>
+
+</resources>
