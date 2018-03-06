@@ -11,6 +11,7 @@ I recently updated the bug with fixes, and decided to put it on github.
 * git clone https://github.com/tedkim81/walkholic.git
 * Launch android studio, and open FitProj or FitProj_kotlin.
 * Add your google-services.json in app folder.
+* Add your local.properties in project root, and set your sdk.dir.
 * Build the app.
 
 ## What can be helpful?
